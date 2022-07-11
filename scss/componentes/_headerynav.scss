@@ -1,0 +1,34 @@
+.cabecera { 
+    background-color: $bg-basengd;
+    width: auto;
+    height: 100px;
+    padding: 1em;
+    font-family: $font-desing;
+
+    .logo {
+        width: 10%;
+        padding-left: 20px;
+    }
+}
+
+
+/*Nav*/
+
+nav {
+    ul { 
+        list-style: none;
+        font-family: $font-desing;
+        font-weight: 400;
+        li { 
+            padding: 20px 60px;
+            font-size: 18px;
+            display: inline-block;
+        }
+    }
+    a { 
+        text-align: center;
+        color: white;
+        text-decoration: $textdec-simple;
+
+    }
+}
