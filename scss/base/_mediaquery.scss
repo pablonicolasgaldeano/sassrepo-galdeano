@@ -1,0 +1,18 @@
+/*Media Query*/
+
+/*Mobie query desktop*/
+
+@media only screen and (max-width: 961px) {
+    .staffaside {
+        background-color: grey;
+    }
+}
+
+/*Media queries mobile*/
+
+@media only screen and (max-width: 480px) {
+    .staffaside {
+        background-color: blue;
+    }
+}
+

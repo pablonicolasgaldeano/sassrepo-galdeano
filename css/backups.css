@@ -122,3 +122,22 @@ body{
   .pie-pagina .grupo-2 small{
     font-size: 15px;
   }
+
+  /*Media Query*/
+
+/*Media queries mobile*/
+
+@media only screen and (max-width: 480px) {
+  .staffaside {
+      background-color: blue;
+  }
+}
+
+/*Mobie query desktop*/
+
+@media only screen and (max-width: 961px) {
+  .staffaside {
+      background-color: grey;
+  }
+}
+
